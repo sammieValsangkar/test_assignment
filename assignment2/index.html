@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Sample Second assignment of WGBL to practice html and css">
+      <meta name="author" content="">
+    <title>Assignment2</title>
+  </head>
+  <body>
+    <div>
+      <div class="banner">
+        <h2> Some Text</h2>
+      </div>
+    </div>
+
+      <div class="container" style="">
+        <h1 class="page_header" ">Header</h1>
+        <div class="text-container">
+          <h3>Text</h3>
+        </div>
+        <div class="text-container">
+          <h3>Text</h3>
+        </div>
+        <div class="text-container">
+          <h3>Text</h3>
+        </div>
+        <div class="text-container">
+          <h3>Text</h3>
+        </div>
+      </div>
+      <div class="image-container">
+        <div class="four-image">
+          <img class="four-image" src="images/a-book-a-week-image.jpg">
+        </div>
+        <div class="four-image">
+          <img class="four-image" src="images/a-book-a-week-image.jpg">
+        </div>
+        <div class="four-image">
+          <img class="four-image" src="images/a-book-a-week-image.jpg">
+        </div>
+      </div>
+      <div class="footer">
+      <p class="copyright_text"> Copyright Reserved</p>
+      <p class="dev_text">Developed By Sameer</p>
+      </div>
+  </body>
+</html>
+
+<style type="text/css">
+  body{
+    margin:0px;
+  }
+  .saperator{
+    background-color: #1f1d1d;
+    height: 5px;
+    width: 100%;
+  }
+  .banner{
+    height: 290px;
+    width: 100%;
+    border-bottom: 3px solid #1f1d1d;
+    background-image:url(images/waves+banner.jpg);
+  }
+h2{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    color: #fff;
+    font-size: 33px;
+    text-align: center;
+}
+.container{
+  background:#efe7e7;
+  height: 370px;
+  width: 100%;
+  border:1px solid #1f1d1d;
+  display: inline-block;
+}
+.text-container{
+  float: left;
+  position: relative;
+  background: #fff;
+  margin: 50px;
+  height: 170px;
+  width: 200px;
+  border: black;
+  text-align: center;
+    border:1px solid #1f1d1d;
+}
+h3{
+    color: red;
+    margin-top: 70px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.image-container{
+  clear: both;
+  height: 300px;
+  width: 100%;
+      padding-top: 80px;
+}
+.page_header {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1f1d1d;
+  text-align: center;
+}
+.four-image{
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 270px;
+    margin-left: 7%;
+
+}
+.footer {
+  background: #fff;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #1f1d1d;
+}
+.copyright_text{
+  float:left;
+  padding-left: 30px;
+}
+.dev_text{
+  float:right;
+  padding-right: 30px;
+}
+
+</style>
